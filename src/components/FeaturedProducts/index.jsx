@@ -1,5 +1,7 @@
 import React from 'react';
-import SekiroImg from '../../resources/img/sekiro_banner.jpg';
+import OutridersImg from '../../resources/img/outriders_banner.jpg';
+import CyberpunkImg from '../../resources/img/cyberpunk_banner.jpg';
+import DonkeyKongImg from '../../resources/img/donkey_kong_banner.jpg';
 
 import Product from '../Product';
 
@@ -13,9 +15,9 @@ export default function FeaturedProducts() {
     <Container>
       <Title>Produtos em destaque</Title>
       <List>
-        <Product imgSrc={SekiroImg} title="Sekiro" price="R$299,99" />
-        <Product imgSrc={SekiroImg} title="Sekiro" price="R$299,99" />
-        <Product imgSrc={SekiroImg} title="Sekiro" price="R$299,99" />
+        <Product imgSrc={OutridersImg} title="Sekiro" price="R$299,99" />
+        <Product imgSrc={CyberpunkImg} title="Sekiro" price="R$299,99" />
+        <Product imgSrc={DonkeyKongImg} title="Sekiro" price="R$299,99" />
       </List>
     </ Container>
   );

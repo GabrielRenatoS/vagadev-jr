@@ -10,25 +10,30 @@ import Footer from '../../components/Footer';
 
 import { 
   Container, Header, 
-  Banner, BannerText, BannerTitle, BannerPrice1, BannerPrice2, 
+  Banner, BannerInfo, BannerTitle, BannerPrice1, BannerPrice2, BannerParagraph,
   DisplayedProducts, ProductBanner, ProductBannerTitle
 } from './styles';
 
 export function Dashboard() {
 
-
+ 
   return (
     <Container>
       <Header>
-        <Navbar />
         <Banner>
           <img src={BannerImage} alt="Banner" />
-          <BannerText>
+          <BannerInfo>
             <BannerTitle>MORTAL KOMBAT</BannerTitle>
             <BannerPrice1>R$299<BannerPrice2>,99</BannerPrice2></BannerPrice1>
-          </BannerText>
+            <BannerParagraph>Mortal Kombat X combina uma apresentação cinemática 
+              única com uma jogabilidade totalmente nova. Os jogadores podem escolher 
+              pela primeira vez diversas variantes de cada personagem, afetando 
+              tanto a estratégia como o estilo de luta.
+            </BannerParagraph>
+          </BannerInfo>
         </Banner>
       </Header>
+      <Navbar />
       <DisplayedProducts>
         <ProductBanner>
           <img src={BannerZelda} alt="Banner Zelda" />

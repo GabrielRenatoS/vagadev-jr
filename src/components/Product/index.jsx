@@ -1,5 +1,5 @@
 import {
-  Container, ProductBanner, Title, Price,
+  Container, ProductBanner, Title, Price, BuyButton
 } from './styles'
 
 export default function Product(props) {
@@ -12,6 +12,7 @@ export default function Product(props) {
       <ProductBanner><img src={imgSrc} alt={title} /></ProductBanner>
       <Title>{title}</Title>
       <Price>{price}</Price>
+      <BuyButton>Comprar</BuyButton>
     </Container>
   )
 }
