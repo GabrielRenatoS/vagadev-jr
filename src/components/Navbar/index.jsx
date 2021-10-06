@@ -25,13 +25,14 @@ export default function Navbar() {
       setMenuCalled(true);
     }
   }
-
+  
+  
   return(
     <Container>
       {menuCalled ?
-        (<HamburgerMenu />)
+        <HamburgerMenu />
         : null
-      }
+      }  
       <Hamburger onClick={handleCallMenu}>
         <img src={HamburgerIcon} alt="Hamburger Menu" />
       </Hamburger>

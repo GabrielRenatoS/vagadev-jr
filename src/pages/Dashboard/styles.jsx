@@ -30,20 +30,6 @@ export const Banner = styled.div`
 `;
 
 export const BannerInfo = styled.div`
-  /*Old
-  position: absolute;
-  top: 20%;
-  left: 55%;
-  width: 40%;
-  display: inline-block;*/
-
-  /*Figma
-  position: absolute;
-  width: 420px;
-  height: 327px;
-  left: 1015px;
-  top: 209px;*/
-
   position: absolute;
   top: 20%;
   left: 55%;
@@ -54,28 +40,6 @@ export const BannerInfo = styled.div`
 `;
 
 export const BannerTitle = styled.text`
-  //position: absolute;
-  
-  /*old
-  top: 0;
-  color: white;
-  font-size: 2.8rem;*/
-
-  /*Figma
-  position: absolute;
-  width: 384px;
-  height: 54px;
-  left: 1051px;
-  top: 209px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 46px;
-  line-height: 54px;
-  /* identical to box height 
-  color: #FFFFFF;*/
-
   position: absolute;
   top: 0;
   color: #FFFFFF;
@@ -105,7 +69,6 @@ export const BannerParagraph = styled.span`
   //left: 1015px;
   top: 70%;
 
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

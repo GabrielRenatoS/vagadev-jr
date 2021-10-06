@@ -17,7 +17,6 @@ export const Title = styled.text`
   top: 40%;
   left: 20%;
 
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -33,7 +32,6 @@ export const Price = styled.text`
   top: 50%;
   left: 20%;
 
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 18px;
@@ -49,8 +47,15 @@ export const BuyButton = styled.button`
   height: 52px;
   align-self: center;
   
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.2rem;
+
   background: #3EC6E0;
   border-radius: 5px;
+  border-width: 0px;
 
   color: #FFFFFF;
+
+  //alternate background: #084154;
 `;

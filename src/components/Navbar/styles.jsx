@@ -34,7 +34,7 @@ export const Hamburger = styled.span`
 `;
 
 export const Titulo = styled.span`
-  flex: 3;
+  flex: 5;
   margin-left: -5vw;
 
   > img {
@@ -49,7 +49,7 @@ export const Contato = styled.span`
 
   > img {
     position: relative;
-    left: 0%;
+    left: -10%;
     right: 0%;
     top: 0%;
     bottom: 0%;
@@ -60,9 +60,10 @@ export const Contato = styled.span`
 
 export const Buscar = styled.span`
   flex: 1;
+
   > img {
     position: relative;
-    left: 0%;
+    left: -10%;
     right: 18.48%;
     top: 31.95%;
     bottom: -4.84%;
@@ -73,4 +74,8 @@ export const Buscar = styled.span`
 
 export const SacolaDeCompras = styled.span`
   flex: 1;
+
+  > img {
+    filter: invert(100%);
+  }
 `;
