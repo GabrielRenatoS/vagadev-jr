@@ -1,6 +1,7 @@
 import React from 'react';
 
-import BannerImage from '../../resources/img/principal_banner_desktop.jpg';
+import BannerPrincipal from '../../resources/img/principal_banner_desktop.jpg';
+import BannerPrincipalMobile from '../../resources/img/principal_banner_mobile.jpg';
 import BannerZelda from '../../resources/img/zelda_banner.jpg';
 import BannerSekiro from '../../resources/img/sekiro_banner.jpg';
 
@@ -16,12 +17,15 @@ import {
 
 export function Dashboard() {
 
- 
-  return (
+   return (
     <Container>
       <Header>
         <Banner>
-          <img src={BannerImage} alt="Banner" />
+          <picture>
+            <source media="(max-width: 405px)" srcSet={BannerPrincipalMobile} />
+            <source media="(min-width: 406px)" srcSet={BannerPrincipal} />
+            <img src={BannerPrincipal} alt="Banner" />
+          </picture>
           <BannerInfo>
             <BannerTitle>MORTAL KOMBAT</BannerTitle>
             <BannerPrice1>R$299<BannerPrice2>,99</BannerPrice2></BannerPrice1>
