@@ -41,8 +41,7 @@ export const InnerRectangle = styled.div`
     width: 100vw;
     height: 400vh;
     left: 0;
-    top: 0;
-    
+    top: 0;    
   }
 `;
 

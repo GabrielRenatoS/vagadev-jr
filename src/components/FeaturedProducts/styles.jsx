@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   position: relative;
-  //margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
@@ -26,9 +25,7 @@ export const Title = styled.h3`
 `;
 
 export const List = styled.div`
-  //display: inline-flex;
   position: relative;
-  //margin-top: 10%;
   top: 10%;
   display: flex;
 

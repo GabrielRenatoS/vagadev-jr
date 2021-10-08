@@ -23,8 +23,8 @@ export const Banner = styled.div`
 export const BannerInfo = styled.div`
   position: absolute;
   top: 20%;
-  left: 55%;
-  width: 40%;
+  left: 50%;
+  width: 45%;
   height: 32%;
   display: flex;
   flex-direction: column;
@@ -92,7 +92,7 @@ export const BannerParagraph = styled.span`
   position: absolute;
   width: 420px;
   height: 163px;
-  top: 70%;
+  top: 60%;
 
   font-style: normal;
   font-weight: normal;
