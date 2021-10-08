@@ -10,15 +10,11 @@ export const Container = styled.div`
   }
 `;
 
-export const ProductBanner = styled.div`
-
-`;
+export const ProductBanner = styled.div``;
 
 export const Title = styled.span`
   position: relative;
-  //width: 58px;
   width: 50%;
-  //height: 16px;
   height: 10%;
   top: 40%;
   left: 20%;

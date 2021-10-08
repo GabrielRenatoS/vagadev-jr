@@ -8,7 +8,6 @@ export const Container = styled.div`
   align-items: center;
   width: 100vw;
   height: 2rem;
-  //left: 10vw;
   top: 44px;
   color: #FFF;
   
@@ -22,7 +21,6 @@ export const Hamburger = styled.span`
   flex: 1;
   margin-left: 15vw;
   filter: invert(100%);
-  
 
   @media (max-width: 375px) {
     margin-left: 5vw;

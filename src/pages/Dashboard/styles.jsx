@@ -37,7 +37,6 @@ export const BannerInfo = styled.div`
 
     background: rgba(0, 0, 0, 0.65);
   }
-
 `;
 
 export const BannerTitle = styled.span`
@@ -65,14 +64,10 @@ export const BannerPrice1 = styled.span`
   font-size: 70px;
   
   @media (max-width: 375px) {
-    //width: 155px;
     width: 60%;
     height: 50.21px;
-    //left: 148px;
     left: 37%;
-    //top: 273.66px;
     top: 15%;
-
 
     font-style: normal;
     font-weight: 900;
@@ -105,12 +100,9 @@ export const BannerParagraph = styled.span`
 
   @media (max-width: 375px) {
     position: absolute;
-    //width: 317px;
     width: 90%;
     height: 99px;    
-    //left: 29px;
     left: 5%;
-    //top: 324px;
     top: 50%; 
 
     font-style: normal;
@@ -152,7 +144,6 @@ export const DisplayedProducts = styled.div`
 
 export const ProductBanner = styled.div`
   width: 80%;
-
 `;
 
 export const ProductBannerTitle = styled.div`
