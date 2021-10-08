@@ -36,3 +36,8 @@ Finalizando esses itens você terá terminado a etapa 02 da avaliação.
 *OBS. 01: O candidato esta livre para trabalhar com a estrutura e tecnologia que preferir, exceto bootstrap e similares.*
 
 *OBS. 02: Finalizando a prova envie o link do fork para o e-mail: rafael.augusto@agencian1.com.br.*
+
+
+### Forma de executar ###
+Abrir prompt de comando ou terminal na pasta do projeto e executar o comando: 
+`yarn start`
