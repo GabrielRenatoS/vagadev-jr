@@ -1,19 +1,25 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 375px) {
+    margin-bottom: 80%;
+  }
 `;
 
 export const ProductBanner = styled.div`
 
 `;
 
-export const Title = styled.text`
+export const Title = styled.span`
   position: relative;
-  width: 58px;
-  height: 16px;
+  //width: 58px;
+  width: 50%;
+  //height: 16px;
+  height: 10%;
   top: 40%;
   left: 20%;
 
@@ -23,9 +29,13 @@ export const Title = styled.text`
   line-height: 16px;
 
   color: #084154;
+
+  @media (max-width: 375px) {
+    top: 10%;    
+  }
 `;
 
-export const Price = styled.text`
+export const Price = styled.span`
   position: relative;
   width: 84px;
   height: 21px;
@@ -38,6 +48,10 @@ export const Price = styled.text`
   line-height: 21px;
 
   color: #084154;
+
+  @media (max-width: 375px) {
+    top: 20%;
+  }
 `;
 
 export const BuyButton = styled.button`
@@ -57,5 +71,23 @@ export const BuyButton = styled.button`
 
   color: #FFFFFF;
 
-  //alternate background: #084154;
+  > img {
+    display: none;
+  }
+
+  ${(props) => props.bought && css`
+    background: #084154;
+
+    > img {
+      position: absolute;
+      display: block;
+      height: 150%;
+      right: 0;
+      bottom: 0;
+    }
+  `}
+
+  @media (max-width: 375px) {    
+    top: 150%;
+  }
 `;

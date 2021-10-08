@@ -41,11 +41,11 @@ export default function Navbar() {
       </Titulo>
       <Contato>
         <img src={PaperPlaneIcon} alt="Avião de Papel" />
-        Contato |
+        <span>Contato |</span>
       </Contato>
       <Buscar>
         <img src={SearchIcon} alt="Lupa" />
-        Buscar |
+        <span>Buscar |</span>
       </Buscar>
       <SacolaDeCompras>
         <img src={ShoppingBagIcon} alt="Sacola de Compras" />

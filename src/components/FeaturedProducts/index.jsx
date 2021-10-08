@@ -15,9 +15,9 @@ export default function FeaturedProducts() {
     <Container>
       <Title>Produtos em destaque</Title>
       <List>
-        <Product imgSrc={OutridersImg} title="Sekiro" price="R$299,99" />
-        <Product imgSrc={CyberpunkImg} title="Sekiro" price="R$299,99" />
-        <Product imgSrc={DonkeyKongImg} title="Sekiro" price="R$299,99" />
+        <Product imgSrc={OutridersImg} title="Sekiro" price="R$200,00" />
+        <Product imgSrc={CyberpunkImg} title="Cyberpunk 2077" price="R$200,00" />
+        <Product imgSrc={DonkeyKongImg} title="Donkey Kong Country Tropical Freeze" price="R$200,00" />
       </List>
     </ Container>
   );

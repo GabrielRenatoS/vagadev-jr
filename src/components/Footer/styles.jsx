@@ -1,15 +1,22 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-  position: absolute;
+export const Container = styled.footer`
+  position: relative;
+  //position: fixed;
   width: 100vw;
   height: 50px;
-  left: 0px;
-  top: 250%;
+  left: 0;
+  //top: 250%;
+  bottom: 0;
 
   display: flex;
 
   background: #084154;
+
+  @media (max-width: 375px) {
+    //position: absolute;
+    //bottom: 0px;
+  }
 `;
 
 export const Logo = styled.div`

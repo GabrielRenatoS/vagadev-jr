@@ -5,7 +5,7 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.div`
-  
+  position: relative;
 `;
 
 export const Banner = styled.div`
@@ -17,7 +17,6 @@ export const Banner = styled.div`
   @media (max-width: 375px) {
     width: 375px;
     height: 436px;
-
   }
 `;
 
@@ -46,7 +45,7 @@ export const BannerInfo = styled.div`
 
 `;
 
-export const BannerTitle = styled.text`
+export const BannerTitle = styled.span`
   position: absolute;
   top: 0;
   color: #FFFFFF;
@@ -67,7 +66,7 @@ export const BannerTitle = styled.text`
   }
 `;
 
-export const BannerPrice1 = styled.text`
+export const BannerPrice1 = styled.span`
   position: absolute;
   top: 20%;
   left: 20%;
@@ -91,7 +90,7 @@ export const BannerPrice1 = styled.text`
   }
 `;
 
-export const BannerPrice2 = styled.text`
+export const BannerPrice2 = styled.span`
   position: absolute;  
   color: #3EC6E0;
   font-size: 28px;
@@ -132,6 +131,15 @@ export const BannerParagraph = styled.span`
   }
 `;
 
+export const Body = styled.div`
+  position: relative;
+  margin-bottom: 100vh;
+
+  @media (max-width: 375px) {
+    margin-bottom: 400%;
+  }
+`;
+
 export const DisplayedProducts = styled.div`
   position: relative;
   width: 90%;
@@ -144,6 +152,9 @@ export const DisplayedProducts = styled.div`
 
   @media (max-width: 375px) {
     flex-direction: column;
+    margin-top: -30%;
+    height: 70%;
+    width: 100%;
   }
 `;
 
@@ -152,6 +163,10 @@ export const ProductBanner = styled.div`
 
   > img {    
     width: 80%;
+  }
+
+  @media (max-width: 375px) {    
+    
   }
 `;
 
@@ -163,4 +178,12 @@ export const ProductBannerTitle = styled.div`
   margin-left: 5%;
   background: #3EC6E0;
   border-radius: 5px;
+
+  @media (max-width: 375px) {    
+    font-size: 0.7rem;
+    line-height: -50%;
+    height: 1.2rem;
+    margin-left: 1%;
+    width: 79%;
+  }
 `;

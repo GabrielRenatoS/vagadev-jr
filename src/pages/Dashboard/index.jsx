@@ -10,13 +10,13 @@ import FeaturedProducts from '../../components/FeaturedProducts';
 import Footer from '../../components/Footer';
 
 import { 
-  Container, Header, 
+  Container, Header, Body,
   Banner, BannerInfo, BannerTitle, BannerPrice1, BannerPrice2, BannerParagraph,
   DisplayedProducts, ProductBanner, ProductBannerTitle
 } from './styles';
 
 export function Dashboard() {
-
+  
    return (
     <Container>
       <Header>
@@ -35,20 +35,22 @@ export function Dashboard() {
               tanto a estratégia como o estilo de luta.
             </BannerParagraph>
           </BannerInfo>
-        </Banner>
+        </Banner>            
       </Header>
       <Navbar />
-      <DisplayedProducts>
-        <ProductBanner>
-          <img src={BannerZelda} alt="Banner Zelda" />
-          <ProductBannerTitle>Legend of Zelda</ProductBannerTitle>
-        </ProductBanner>
-        <ProductBanner>          
-          <img src={BannerSekiro} alt="Banner Sekiro" />
-          <ProductBannerTitle>Sekiro</ProductBannerTitle>
-        </ProductBanner>
-      </DisplayedProducts>
-      <FeaturedProducts />
+      <Body>
+        <DisplayedProducts>
+          <ProductBanner>
+            <img src={BannerZelda} alt="Banner Zelda" />
+            <ProductBannerTitle>The Legend of Zelda - Breath of th wild</ProductBannerTitle>
+          </ProductBanner>
+          <ProductBanner>          
+            <img src={BannerSekiro} alt="Banner Sekiro" />
+            <ProductBannerTitle>SEKIRO - Shadows die twice</ProductBannerTitle>
+          </ProductBanner>
+        </DisplayedProducts>
+        <FeaturedProducts />
+      </Body>
       <Footer />
     </Container>
   );

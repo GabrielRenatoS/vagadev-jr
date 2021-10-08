@@ -5,7 +5,7 @@ export const Container = styled.div`
   //margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
-  width: 80%;  
+  width: 80%;
 `;
 
 export const Title = styled.h3`
