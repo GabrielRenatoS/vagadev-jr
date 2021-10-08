@@ -42,11 +42,17 @@ export function Dashboard() {
         <DisplayedProducts>
           <ProductBanner>
             <img src={BannerZelda} alt="Banner Zelda" />
-            <ProductBannerTitle>The Legend of Zelda - Breath of th wild</ProductBannerTitle>
+            <ProductBannerTitle>
+              The Legend of Zelda - Breath of th wild
+              <hr />
+            </ProductBannerTitle>            
           </ProductBanner>
           <ProductBanner>          
             <img src={BannerSekiro} alt="Banner Sekiro" />
-            <ProductBannerTitle>SEKIRO - Shadows die twice</ProductBannerTitle>
+            <ProductBannerTitle>
+              SEKIRO - Shadows die twice
+              <hr />
+            </ProductBannerTitle>
           </ProductBanner>
         </DisplayedProducts>
         <FeaturedProducts />

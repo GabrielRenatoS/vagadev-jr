@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import MarioIcon from '../../resources/img/mario_icon.jpg';
+import MarioIcon from '../../resources/svgs/mario_icon.svg';
 
 import {
   Container, ProductBanner, Title, Price, BuyButton
@@ -18,12 +18,14 @@ export default function Product(props) {
 
   return(
     <Container>
-      <ProductBanner><img src={imgSrc} alt={title} /></ProductBanner>
+      <ProductBanner>
+        <img src={imgSrc} alt={title} />
+        <hr />
+      </ProductBanner>
       <Title>{title}</Title>
       <Price>{price}</Price>
       <BuyButton onClick={handleBuy} bought={buy}>
-        {buy ? ("Comprado") : ("Comprar")}
-        
+        {buy ? ("Comprado") : ("Comprar")}        
         <img src={MarioIcon} alt="Mario Icon" />
       </BuyButton>
     </Container>

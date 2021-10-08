@@ -150,16 +150,32 @@ export const ProductBannerTitle = styled.div`
   position: relative;
   width: 75%;
   height: 3rem;
+  line-height: 2.5rem;  
   margin-top: -8.5%;
   margin-left: 5%;
   background: #3EC6E0;
   border-radius: 5px;
 
+  > hr {
+    position: relative;
+    width: 40%;
+    height: 0px;
+    top: -40%;
+    left: 60%;
+
+    border: 1px solid #084154;
+  }
+
   @media (max-width: 375px) {    
     font-size: 0.7rem;
-    line-height: -50%;
+    line-height: 1rem;
     height: 1.2rem;
     margin-left: 1%;
     width: 79%;
+
+    > hr {
+      width: 10%;
+      left: 90%;
+    }
   }
 `;

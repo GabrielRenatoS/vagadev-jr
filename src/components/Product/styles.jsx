@@ -10,13 +10,23 @@ export const Container = styled.div`
   }
 `;
 
-export const ProductBanner = styled.div``;
+export const ProductBanner = styled.div`
+  > hr {
+    position: relative;
+    width: 350px;
+    height: 2px;
+    //left: 785px;
+    //top: 1736px;    
+
+    background: #3EC6E0;
+  }
+`;
 
 export const Title = styled.span`
   position: relative;
   width: 50%;
   height: 10%;
-  top: 40%;
+  top: 50%;
   left: 20%;
 
   font-style: normal;
@@ -27,7 +37,7 @@ export const Title = styled.span`
   color: #084154;
 
   @media (max-width: 375px) {
-    top: 10%;    
+    top: 25%;    
   }
 `;
 
@@ -35,7 +45,7 @@ export const Price = styled.span`
   position: relative;
   width: 84px;
   height: 21px;
-  top: 50%;
+  top: 60%;
   left: 20%;
 
   font-style: normal;
@@ -46,13 +56,13 @@ export const Price = styled.span`
   color: #084154;
 
   @media (max-width: 375px) {
-    top: 20%;
+    top: 30%;
   }
 `;
 
 export const BuyButton = styled.button`
   position: absolute;
-  top: 180%;
+  top: 190%;
   width: 240px;
   height: 52px;
   align-self: center;

@@ -5,7 +5,7 @@ export const Container = styled.div`
 
   @media (max-width: 375px) {
     z-index: 1;
-    top: -20px;
+    top: -25px;
   }
 `;
 
@@ -41,7 +41,8 @@ export const InnerRectangle = styled.div`
     width: 100vw;
     height: 400vh;
     left: 0;
-    top: 0;    
+    top: 0;
+    border: 0;  
   }
 `;
 
@@ -80,8 +81,23 @@ export const List = styled.div`
   display: flex;
   flex-direction: column;
 
+  > hr {
+    display: none;
+  }
+
   @media (max-width: 375px) {
     margin-bottom: 20%;
+
+    > hr {      
+      position: relative;
+      display: inline;
+      max-width: 300px;
+      width: 250px;
+      height: 0px;
+      left: -10%;
+      
+      border: 1px solid #062C38;
+    }
   }
 `;
 

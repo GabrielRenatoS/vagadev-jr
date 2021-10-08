@@ -18,6 +18,7 @@ export default function HamburgerMenu() {
           <Item>Smash Bros</Item>
           <Item>Killer Instinct</Item>
           <Item>DBZ Kakarot</Item>
+          <hr />
         </List>
         <List>
           <Title>Ação/Aventura</Title>
@@ -25,11 +26,13 @@ export default function HamburgerMenu() {
           <Item>Tomb Raider</Item>
           <Item>Halo</Item>
           <Item>Call of Duty</Item>
+          <hr />
         </List>
         <List>    
           <Title>Corrida</Title>
           <Item>Need for Speed</Item>
           <Item>Forza Horizon</Item>
+          <hr />
         </List>
       </ListContainer>
     </Container>
