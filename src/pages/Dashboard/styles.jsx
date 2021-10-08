@@ -5,7 +5,7 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.div`
-  position: relative;
+  position: relative;  
 `;
 
 export const Banner = styled.div`
@@ -26,15 +26,10 @@ export const BannerInfo = styled.div`
   left: 55%;
   width: 40%;
   height: 32%;
-  //display: inline-block;
   display: flex;
   flex-direction: column;
 
   @media (max-width: 375px) {
-    /*width: 100vw;
-    height: 20vw;
-    left: 0px;
-    top: 20%;*/
     width: 375px;
     height: 214px;
     left: 0px;
@@ -54,12 +49,8 @@ export const BannerTitle = styled.span`
   line-height: 54px;
 
   @media (max-width: 375px) {
-    //width: 217px;
-    width: 100%;
-    //height: 27px;
-    //left: 129px;
+    width: 70%;
     left: 25%;    
-    //top: 236px;
     top: 5%;
     font-size: 26px;
     line-height: 30px;
@@ -75,7 +66,7 @@ export const BannerPrice1 = styled.span`
   
   @media (max-width: 375px) {
     //width: 155px;
-    width: 100%;
+    width: 60%;
     height: 50.21px;
     //left: 148px;
     left: 37%;
@@ -146,7 +137,7 @@ export const DisplayedProducts = styled.div`
   height: 80%;
   display: flex;
   margin-top: -10%;
-  margin-left: 10%;
+  margin-left: 5%;
   justify-content: space-evenly;
   align-items: center;
 
@@ -155,19 +146,13 @@ export const DisplayedProducts = styled.div`
     margin-top: -30%;
     height: 70%;
     width: 100%;
+    margin-left: 0;
   }
 `;
 
 export const ProductBanner = styled.div`
   width: 80%;
 
-  > img {    
-    width: 80%;
-  }
-
-  @media (max-width: 375px) {    
-    
-  }
 `;
 
 export const ProductBannerTitle = styled.div`

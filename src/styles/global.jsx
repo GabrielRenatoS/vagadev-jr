@@ -10,7 +10,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
     outline: 0;
     max-width: 100%;
-  }
+  }  
 
   body {
     height: 100vh;

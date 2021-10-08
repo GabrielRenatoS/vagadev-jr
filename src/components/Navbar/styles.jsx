@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   position: absolute;
+  z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,9 +18,11 @@ export const Container = styled.div`
 `;
 
 export const Hamburger = styled.span`
+  z-index: 2;
   flex: 1;
   margin-left: 15vw;
   filter: invert(100%);
+  
 
   @media (max-width: 375px) {
     margin-left: 5vw;
@@ -27,6 +30,7 @@ export const Hamburger = styled.span`
 `;
 
 export const Titulo = styled.span`
+  z-index: 2;
   flex: 5;
   margin-left: -5vw;
 
@@ -47,6 +51,7 @@ export const Titulo = styled.span`
 `;
 
 export const Contato = styled.span`
+  z-index: 2;
   flex: 1;
 
   > img {
@@ -67,6 +72,7 @@ export const Contato = styled.span`
 `;
 
 export const Buscar = styled.span`
+  z-index: 2;
   flex: 1;
 
   > img {
@@ -87,6 +93,7 @@ export const Buscar = styled.span`
 `;
 
 export const SacolaDeCompras = styled.span`
+  z-index: 2;
   flex: 1;
 
   > img {

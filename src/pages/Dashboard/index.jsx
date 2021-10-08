@@ -17,7 +17,7 @@ import {
 
 export function Dashboard() {
   
-   return (
+  return (
     <Container>
       <Header>
         <Banner>
@@ -36,8 +36,8 @@ export function Dashboard() {
             </BannerParagraph>
           </BannerInfo>
         </Banner>            
+        <Navbar />
       </Header>
-      <Navbar />
       <Body>
         <DisplayedProducts>
           <ProductBanner>

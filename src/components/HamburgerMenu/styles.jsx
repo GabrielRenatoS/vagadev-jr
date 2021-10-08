@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  position: absolute;  
+  position: absolute;
+
+  @media (max-width: 375px) {
+    z-index: 1;
+    top: -20px;
+  }
 `;
 
 export const OuterRectangle = styled.div`
@@ -13,6 +18,10 @@ export const OuterRectangle = styled.div`
 
   background: #3EC6E0;
   border-radius: 5px;
+
+  @media (max-width: 375px) {
+    display: none;
+  }
 `;
 
 export const InnerRectangle = styled.div`
@@ -27,6 +36,14 @@ export const InnerRectangle = styled.div`
   border: 2px solid #3EC6E0;
   box-sizing: border-box;
   border-radius: 5px;
+
+  @media (max-width: 375px) {    
+    width: 100vw;
+    height: 400vh;
+    left: 0;
+    top: 0;
+    
+  }
 `;
 
 export const Indicator = styled.div`
@@ -40,6 +57,9 @@ export const Indicator = styled.div`
   background: #3EC6E0;
   transform: rotate(135deg);
 
+  @media (max-width: 375px) {
+    display: none;
+  }
 `;
 
 export const ListContainer = styled.div`
@@ -51,11 +71,19 @@ export const ListContainer = styled.div`
   top: 9vh;  
   display: flex;
   padding: 1rem;
+
+  @media (max-width: 375px) {
+    flex-direction: column;
+  }
 `;
 
 export const List = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 375px) {
+    margin-bottom: 20%;
+  }
 `;
 
 export const Title = styled.span`
@@ -80,4 +108,3 @@ export const Item = styled.span`
   margin-bottom: 1rem;
   color: #FFFFFF;
 `;
-
